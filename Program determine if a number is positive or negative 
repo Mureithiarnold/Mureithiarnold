@@ -1,0 +1,35 @@
+/*program to determine if you are eligible to vote */
+#include <stdio.h>
+int main()
+{
+int age; 
+printf("enter you age");
+scanf("%d",&age); 
+if(age>=18)
+{
+printf("eligible to vote ");
+}
+if(age<=17)
+{
+printf("not eligible to vote ");
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

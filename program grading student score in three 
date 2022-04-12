@@ -1,0 +1,46 @@
+/*program grading student score in three exam*/
+#include <stdio.h>
+
+void main()
+{
+int chem, phy, bio,avg;
+printf("please enter score for three exam");
+scanf("%d%d%d",&chem, &phy, &bio); 
+avg=(chem+phy+bio)/3;
+printf( "average score is %d",avg);
+if(avg>=70&&avg<=100);
+{
+printf("grade A") ;
+}
+if(avg>=60&&avg<=69)
+{
+printf("grade B");
+}
+if(avg>=50&&avg<=59)
+{
+printf("grade C");
+}
+if(avg==0&&avg<=40)
+{
+printf("grade E");
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

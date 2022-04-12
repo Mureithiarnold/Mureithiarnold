@@ -1,0 +1,35 @@
+/*program to check if a number is  divisible  17*/
+#include <stdio.h>
+int main()
+{
+int num; 
+printf("enter the number");
+scanf("%d",&num); 
+if(num%17==0)
+{
+printf("the number  is divisible by 17");
+}
+if(num%17!=0)
+{
+printf("the number is not divisible by 17");
+}
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
